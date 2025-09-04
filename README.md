@@ -55,24 +55,24 @@ ImmersionDay-SYE/
 └── README.md
 ```
 
-## Folder Structure
+## Experiment Description
 
-### Agentcore-Experiment/
+### Agentcore-Experiment
 Experiments with AWS Bedrock AgentCore framework
-- **agentcore-browser-use/**: Browser automation agent implementation
-- **agentcore-quick-start/**: Getting started guide and examples
+- **agentcore-browser-use**: Browser automation agent implementation
+- **agentcore-quick-start**: Getting started guide and examples
 
-### Medical-Agents-Experiment/
+### Medical-Agents-Experiment
 Medical domain-specific agent implementations
 - Document processing and medical coding tools
 
-### Strands-Agents-Experiment/
+### Strands-Agents-Experiment
 Experiments with AWS Strands Agents framework
-- **fundamental-multi-agents-experiment/**: Multi-agent patterns and architectures
-  - **01-agent-as-tool/**: Using agents as tools in workflows
-  - **02-swarm-agent/**: Swarm-based agent coordination
-  - **03-graph-agent/**: Graph-based agent workflows
-- **fundamental-tools-experiment/**: Tool integration patterns
-  - **01-using-mcp-tools/**: Model Context Protocol (MCP) tools integration
-  - **02-custom-tools/**: Custom tool development
-- **strands-quick-start/**: Getting started with Strands Agents
+- **fundamental-multi-agents-experiment**: Multi-agent patterns and architectures
+  - **01-agent-as-tool**: Using agents as tools in workflows
+  - **02-swarm-agent**: Swarm-based agent coordination
+  - **03-graph-agent**: Graph-based agent workflows
+- **fundamental-tools-experiment**: Tool integration patterns
+  - **01-using-mcp-tools**: Model Context Protocol (MCP) tools integration
+  - **02-custom-tools**: Custom tool development
+- **strands-quick-start**: Getting started with Strands Agents
