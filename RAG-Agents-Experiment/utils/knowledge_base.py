@@ -85,14 +85,14 @@ class BedrockKnowledgeBase:
         """
 
         boto3_session = boto3.session.Session()
-        self.region_name = boto3_session.region_name
+        self.region_name = os.getenv('AWS_REGION')
         self.iam_client = boto3_session.client('iam')
-        self.lambda_client = boto3.client('lambda')
+        self.lambda_client = boto3.client('lambda', region_name=os.getenv('AWS_REGION'))
         self.account_number = boto3.client('sts').get_caller_identity().get('Account')
         self.suffix = suffix or f'{self.region_name}-{self.account_number}'
         self.identity = boto3.client('sts').get_caller_identity()['Arn']
-        self.aoss_client = boto3_session.client('opensearchserverless')
-        self.neptune_client = boto3.client('neptune-graph')
+        self.aoss_client = boto3_session.client('opensearchserverless', region_name=os.getenv('AWS_REGION'))
+        self.neptune_client = boto3.client('neptune-graph', region_name=os.getenv('AWS_REGION'))
         self.s3_client = boto3.client('s3')
         self.bedrock_agent_client = boto3.client('bedrock-agent',region_name=os.getenv('AWS_REGION'))
         credentials = boto3.Session().get_credentials()
