@@ -11,6 +11,63 @@ This immersion day provides hands-on experience with AWS AI agent frameworks thr
 ## Repository Structure
 ```
 ImmersionDay-SYE/
+├── Strands-Agents-Experiment/
+│   ├── fundamental-multi-agents-experiment/
+│   │   ├── 01-agent-as-tool/
+│   │   │   ├── images/
+│   │   │   │   └── architecture.png
+│   │   │   ├── agent-as-tools.ipynb
+│   │   │   ├── agents-as-tools-interleaved.ipynb
+│   │   │   └── requirements.txt
+│   │   ├── 02-swarm-agent/
+│   │   │   ├── images/
+│   │   │   │   └── swarm_example.png
+│   │   │   ├── requirements.txt
+│   │   │   └── swarm.ipynb
+│   │   └── 03-graph-agent/
+│   │       ├── images/
+│   │       │   ├── basic.png
+│   │       │   ├── conditional.png
+│   │       │   └── parallel.png
+│   │       ├── graph.ipynb
+│   │       └── requirements.txt
+│   ├── fundamental-tools-experiment/
+│   │   ├── 01-using-mcp-tools/
+│   │   │   ├── images/
+│   │   │   │   ├── architecture_2.png
+│   │   │   │   ├── architecture_3.png
+│   │   │   │   └── architecture.png
+│   │   │   ├── mcp-agent.ipynb
+│   │   │   └── requirements.txt
+│   │   └── 02-custom-tools/
+│   │       ├── images/
+│   │       │   └── architecture.png
+│   │       ├── custom-tools-with-strands-agents.ipynb
+│   │       └── requirements.txt
+│   └── strands-quick-start/
+│       ├── images/
+│       │   ├── agent_with_tools.png
+│       │   ├── interactive_recipe_agent.png
+│       │   └── simple_agent.png
+│       ├── requirements.txt
+│       └── strands-quick-start.ipynb
+├── RAG-Agents-Experiment/
+│   ├── images/
+│   │   └── architecture.png
+│   ├── sample_structured_data/
+│   │   ├── order_items.csv
+│   │   ├── orders.csv
+│   │   ├── payments.csv
+│   │   └── reviews.csv
+│   ├── sample_unstructured_data/
+│   │   └── octank_financial_10K.pdf
+│   ├── utils/
+│   │   ├── knowledge_base.py
+│   │   └── structured_knowledge_base.py
+│   ├── 0-prerequisites-structured-kb.ipynb
+│   ├── 1-prerequisites-unstructured-kb.ipynb
+│   ├── 2-unstructured-structured-rag-agent.ipynb
+│   └── README.md
 ├── Agentcore-Experiment/
 │   ├── agentcore-browser-use/
 │   │   ├── app_reviews_agentcore_simple.py
@@ -18,41 +75,16 @@ ImmersionDay-SYE/
 │   │   └── run_browser_use.ipynb
 │   └── agentcore-quick-start/
 │       ├── images/
+│       │   ├── architecture_local.png
+│       │   ├── architecture_runtime.png
+│       │   ├── configure.png
+│       │   ├── invoke.png
+│       │   └── launch.png
 │       ├── agentcore-quick-start.ipynb
 │       └── requirements.txt
-├── Medical-Agents-Experiment/
-│   ├── images/
-│   ├── document_processor.py
-│   ├── main.py
-│   └── medical_coding_tools.py
-├── Strands-Agents-Experiment/
-│   ├── fundamental-multi-agents-experiment/
-│   │   ├── 01-agent-as-tool/
-│   │   │   ├── images/
-│   │   │   ├── agent-as-tools.ipynb
-│   │   │   ├── agents-as-tools-interleaved.ipynb
-│   │   │   └── requirements.txt
-│   │   ├── 02-swarm-agent/
-│   │   │   ├── images/
-│   │   │   ├── requirements.txt
-│   │   │   └── swarm.ipynb
-│   │   └── 03-graph-agent/
-│   │       ├── images/
-│   │       ├── graph.ipynb
-│   │       └── requirements.txt
-│   ├── fundamental-tools-experiment/
-│   │   ├── 01-using-mcp-tools/
-│   │   │   ├── images/
-│   │   │   ├── mcp-agent.ipynb
-│   │   │   └── requirements.txt
-│   │   └── 02-custom-tools/
-│   │       ├── images/
-│   │       ├── custom-tools-with-strands-agents.ipynb
-│   │       └── requirements.txt
-│   └── strands-quick-start/
-│       ├── images/
-│       └── strands-quick-start.ipynb
-└── README.md
+├── README.md
+└── requirements.txt
+
 ```
 
 ## Experiment Description
